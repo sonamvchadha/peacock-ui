@@ -1,0 +1,78 @@
+{
+  "color": {
+    "surface": {
+      "page": {
+        "$type": "color",
+        "$value": "{color.ink.900}"
+      },
+      "raised": {
+        "$type": "color",
+        "$value": "{color.ink.800}"
+      },
+      "accent": {
+        "$type": "color",
+        "$value": "{color.teal.900}"
+      }
+    },
+    "text": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.ink.50}"
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{color.ink.300}"
+      },
+      "accent": {
+        "$type": "color",
+        "$value": "{color.teal.100}"
+      }
+    },
+    "border": {
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.ink.700}"
+      },
+      "control": {
+        "$type": "color",
+        "$value": "{color.ink.300}"
+      }
+    },
+    "action": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.teal.300}"
+      },
+      "primary-hover": {
+        "$type": "color",
+        "$value": "{color.teal.100}"
+      },
+      "on-primary": {
+        "$type": "color",
+        "$value": "{color.ink.900}"
+      }
+    },
+    "accent": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.plume.500}"
+      }
+    },
+    "focus": {
+      "ring": {
+        "$type": "color",
+        "$value": "{color.plume.500}"
+      }
+    },
+    "feedback": {
+      "success": {
+        "$type": "color",
+        "$value": "{color.jade.300}"
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "{color.coral.300}"
+      }
+    }
+  }
+}

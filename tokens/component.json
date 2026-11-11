@@ -1,0 +1,50 @@
+{
+  "button": {
+    "primary": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.action.primary}"
+      },
+      "bg-hover": {
+        "$type": "color",
+        "$value": "{color.action.primary-hover}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{color.action.on-primary}"
+      }
+    }
+  },
+  "input": {
+    "border": {
+      "$type": "color",
+      "$value": "{color.border.control}"
+    },
+    "border-focus": {
+      "$type": "color",
+      "$value": "{color.focus.ring}"
+    },
+    "bg": {
+      "$type": "color",
+      "$value": "{color.surface.page}"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{color.text.primary}"
+    },
+    "placeholder": {
+      "$type": "color",
+      "$value": "{color.text.muted}"
+    }
+  },
+  "tag": {
+    "bg": {
+      "$type": "color",
+      "$value": "{color.surface.accent}"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{color.text.accent}"
+    }
+  }
+}

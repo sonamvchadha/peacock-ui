@@ -1,0 +1,32 @@
+{
+  "color": {
+    "surface": {
+      "accent": {
+        "$type": "color",
+        "$value": "{color.plum.50}"
+      }
+    },
+    "text": {
+      "accent": {
+        "$type": "color",
+        "$value": "{color.plum.900}"
+      }
+    },
+    "action": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.plum.700}"
+      },
+      "primary-hover": {
+        "$type": "color",
+        "$value": "{color.plum.900}"
+      }
+    },
+    "focus": {
+      "ring": {
+        "$type": "color",
+        "$value": "{color.plum.700}"
+      }
+    }
+  }
+}

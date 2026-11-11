@@ -1,0 +1,22 @@
+/* BEM: .button (block), .button__icon (element), .button_size_sm (modifier) */
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--pk-space-1);
+  padding: var(--pk-space-2) var(--pk-space-4);
+  border: 0;
+  border-radius: var(--pk-radius-md);
+  background: var(--pk-button-primary-bg);
+  color: var(--pk-button-primary-text);
+  font-family: var(--pk-font-sans);
+  font-size: var(--pk-font-size-label);
+  font-weight: 600;
+  line-height: 1.25;
+  cursor: pointer;
+  transition: background-color 120ms ease;
+}
+.button:hover { background: var(--pk-button-primary-bg-hover); }
+.button:focus-visible { outline: 2px solid var(--pk-input-border-focus); outline-offset: 2px; }
+.button:disabled { opacity: 0.5; cursor: not-allowed; }
+.button_size_sm { padding: var(--pk-space-1) var(--pk-space-3); }
+@media (prefers-reduced-motion: reduce) { .button { transition: none; } }
